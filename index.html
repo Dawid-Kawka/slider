@@ -5,9 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Slider</title>
-    <link rel="stylesheet" href="index.css" />
+    .slider-container { width: 800px; height: 800px; }
   </head>
   <body>
-    <script src="index.js"></script>
+    <div class="slider-container">
+      <div class="comparison">
+        <div class="base-image">
+          <div class="divisor"></div>
+        </div>
+        <input
+          type="range"
+          min="0"
+          max="0"
+          value="50"
+          id="slider-range"
+          noinput="divisorChanged()"
+        />
+      </div>
+    </div>
   </body>
 </html>
