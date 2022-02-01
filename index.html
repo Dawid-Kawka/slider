@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Slider</title>
-    .slider-container { width: 800px; height: 800px; }
+    <style>
+      .slider-container {
+        width: 800px;
+        height: 800px;
+      }
+    </style>
   </head>
   <body>
     <div class="slider-container">
@@ -23,5 +28,9 @@
         />
       </div>
     </div>
+    <script>
+      let divisor = document.querySelector(".divisor");
+      let slider = document.getElementById("slider-range");
+    </script>
   </body>
 </html>
